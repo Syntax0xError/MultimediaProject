@@ -1,0 +1,56 @@
+
+  .index_editor__2tqRz {
+    height: 100%!important;
+  }
+  .mdc-card--window {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scale(1)!important;
+    background-color: var(--mdc-theme-surface);
+    box-shadow: 0 0px 3px rgb(0 0 0 / 12%), 0 1px 40px rgb(0 0 0 / 24%);
+    transform-origin: left bottom;
+    // margin: 16px;
+    transition: height 300000ms ease 0s, width 800ms ease 0s;
+    .mdc-card__appbar {
+      padding: 6px;
+      .mdc-card__appbar--right {
+        float:right;
+        button:nth-child(2) {
+          display: none;
+        }
+      }
+      .mdc-card__appbar--left {
+        float:left;
+      }
+    }
+    .mdc-card__content {
+      height: 275px;
+      transition: height 300ms ease 0s;
+      overflow: hidden;
+    }
+  }
+  .mdc-card--window.window--minimize  {
+    .mdc-card__appbar--right {
+      button:nth-child(1) {
+        display: none;
+      }
+      button:nth-child(2) {
+        display: inline-block;
+      }
+    }
+    .mdc-card__content {
+      height: 0;
+    }
+  }
+  .mdc-card--window.window--close {
+    transform: scale(0)!important;
+    transition: transform 300ms ease 0s;
+  }
+  
+  @media only screen and (max-width: 732px) {
+    .mdc-card--window{
+      width: fit-content;
+    }
+  }

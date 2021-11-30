@@ -1,0 +1,24 @@
+@use "@material/theme" with (
+  $primary: #6673ff,
+  $secondary: #f3b627,
+  $on-primary: #fff,
+  $on-secondary: #fff,
+  $background: #f4f4f4,
+  $error:#e74c3c,
+  $surface:#fff,
+  $on-surface:#2e383c,
+  $on-error:#fff,
+);
+
+$mdc-theme-border-color: #e4e4e4;
+$mdc-theme-on-error: #fff;
+$mdc-theme-text-primary-on-background: #2e383c;
+$mdc-theme-disabled: rgba(0, 0, 0, 0.12);
+$mdc-theme-button-border: rgba(0, 0, 0, 0.12);
+$mdc-theme-text-secondary-on-background: rgba(0, 0, 0, 0.54);
+$mdc-checkbox-unchecked-color: rgba(0, 0, 0, 0.54);
+
+
+$grey-nuance-lighter: #eeeeee;
+$grey-nuance-darker: #dddddd;
+$fade-grey: #e8e8e8;
