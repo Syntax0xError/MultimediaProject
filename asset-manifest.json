@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MultimediaProject/static/css/main.d76d3bdd.chunk.css",
+    "main.css": "/MultimediaProject/static/css/main.2791f8df.chunk.css",
     "main.js": "/MultimediaProject/static/js/main.0c011627.chunk.js",
     "main.js.map": "/MultimediaProject/static/js/main.0c011627.chunk.js.map",
     "runtime-main.js": "/MultimediaProject/static/js/runtime-main.1fcc825c.js",
@@ -10,7 +10,7 @@
     "static/js/3.957fb5c5.chunk.js": "/MultimediaProject/static/js/3.957fb5c5.chunk.js",
     "static/js/3.957fb5c5.chunk.js.map": "/MultimediaProject/static/js/3.957fb5c5.chunk.js.map",
     "index.html": "/MultimediaProject/index.html",
-    "static/css/main.d76d3bdd.chunk.css.map": "/MultimediaProject/static/css/main.d76d3bdd.chunk.css.map",
+    "static/css/main.2791f8df.chunk.css.map": "/MultimediaProject/static/css/main.2791f8df.chunk.css.map",
     "static/js/2.1ba4b4e6.chunk.js.LICENSE.txt": "/MultimediaProject/static/js/2.1ba4b4e6.chunk.js.LICENSE.txt",
     "static/media/Logo.4ad7cea0.svg": "/MultimediaProject/static/media/Logo.4ad7cea0.svg",
     "static/media/Index.scss": "/MultimediaProject/static/media/monaco-webfont.ba2709a5.woff"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.1fcc825c.js",
     "static/js/2.1ba4b4e6.chunk.js",
-    "static/css/main.d76d3bdd.chunk.css",
+    "static/css/main.2791f8df.chunk.css",
     "static/js/main.0c011627.chunk.js"
   ]
 }
